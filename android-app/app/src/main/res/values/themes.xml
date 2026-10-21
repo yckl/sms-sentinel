@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Sentinel" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/blue</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorSurfaceVariant">@color/mist</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+        <item name="colorOutline">@color/line</item>
+        <item name="colorSurfaceContainer">@color/white</item>
+        <item name="colorSurfaceContainerLow">@color/white</item>
+        <item name="colorSurfaceContainerHigh">@color/white</item>
+        <item name="colorSurfaceContainerHighest">@color/white</item>
+        <item name="colorSurfaceContainerLowest">@color/white</item>
+        <item name="colorSurfaceBright">@color/white</item>
+        <item name="colorSurfaceDim">@color/mist</item>
+        <item name="colorSecondaryContainer">@color/mist</item>
+        <item name="colorOnSecondaryContainer">@color/blue</item>
+        <item name="android:windowBackground">@color/mist</item>
+        <item name="android:statusBarColor">@color/mist</item>
+        <item name="android:navigationBarColor">@color/mist</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.Sentinel.Call" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@color/deep_2</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Text.Section" parent="">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+
+    <style name="Text.Caption" parent="">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/muted</item>
+    </style>
+
+    <style name="Widget.Sentinel.Toggle" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/toggle_text</item>
+        <item name="backgroundTint">@color/toggle_bg</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="rippleColor">#1A0A84FF</item>
+    </style>
+</resources>

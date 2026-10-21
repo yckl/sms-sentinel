@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">重要短信哨兵</string>
+    <string name="app_tagline">只为真正重要的短信提醒</string>
+    <string name="tab_home">待处理</string>
+    <string name="tab_records">提醒记录</string>
+    <string name="tab_settings">设置</string>
+
+    <string name="status_listening">监听中</string>
+    <string name="status_unavailable">无法监听</string>
+    <string name="status_paused">监听已暂停</string>
+    <string name="only_number">唯一监听号码 · 其他短信不处理</string>
+    <string name="next_ring">下一次提醒</string>
+    <string name="pending_title">待处理提醒</string>
+    <string name="quick_actions">快捷操作</string>
+    <string name="simulate_call">模拟一次来电</string>
+    <string name="permission_check">权限与适配检查</string>
+    <string name="no_pending">暂无待确认短信</string>
+    <string name="no_pending_hint">收到目标号码短信后，这里会出现待确认提醒</string>
+
+    <string name="call_tag">重要短信 · 非电话</string>
+    <string name="call_title">重要短信提醒</string>
+    <string name="call_pending">待确认</string>
+    <string name="call_privacy_on">隐私保护已开启</string>
+    <string name="call_privacy_title">锁屏时隐藏短信正文</string>
+    <string name="call_privacy_desc">接听后需通过系统解锁，才能查看全文</string>
+    <string name="call_privacy_desc2">挂断不会显示短信内容，直接确认知悉</string>
+    <string name="call_body_label">短信内容</string>
+    <string name="call_footer">60 秒后结束响铃 · 10 分钟后再次提醒</string>
+    <string name="call_answer">接听查看</string>
+    <string name="call_answer_unlocked">接听并确认</string>
+    <string name="call_decline">挂断（已知悉）</string>
+    <string name="call_note">接听或挂断都会确认本条短信</string>
+    <string name="call_simulated">模拟提醒 · 不会写入记录</string>
+
+    <string name="settings_title">提醒设置</string>
+    <string name="settings_sub">所有设置仅在本机生效</string>
+    <string name="records_title">提醒记录</string>
+    <string name="records_sub">所有记录仅保存在本机</string>
+
+    <string name="permission_title">适配与权限</string>
+    <string name="permission_sub">当前运行能力一目了然</string>
+    <string name="permission_ready">基础监听状态</string>
+
+    <string name="channel_call">重要短信来电</string>
+    <string name="channel_call_desc">目标号码来信时的全屏来电提醒</string>
+    <string name="channel_silent">重要短信来电（静音）</string>
+    <string name="channel_silent_desc">由全屏页面负责铃声与震动</string>
+</resources>
