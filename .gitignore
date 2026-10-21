@@ -4,13 +4,23 @@ android-app/app/build/
 android-app/build/
 android-app/local.properties
 
-# APK (不追踪 build 产物，releases 目录的 APK 保留)
-android-app/app/build/outputs/
+# APK 构建产物
+*.apk
+*.aab
 
-# IDE
+# IDE & 工具配置
 .idea/
 *.iml
 .claude/
+
+# 项目外部文件（设计稿、Word 文档）
+*.docx
+*.psd
+*.xd
+
+# 无关工具目录
+zm5tools/
+tubiaoui.png
 
 # Windows
 Thumbs.db
